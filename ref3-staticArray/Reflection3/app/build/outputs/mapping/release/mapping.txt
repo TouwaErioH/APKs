@@ -1,0 +1,8 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# min_api: 8
+# pg_map_id: e9971fd
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+de.ecspride.ReflectiveClass -> a.a:
+    java.lang.String imei -> a

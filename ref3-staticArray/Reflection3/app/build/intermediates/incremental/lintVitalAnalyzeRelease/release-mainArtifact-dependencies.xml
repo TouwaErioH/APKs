@@ -1,0 +1,12 @@
+<dependencies>
+  <compile
+      roots="com.android.support:support-v4:18.0.0@jar">
+    <dependency
+        name="com.android.support:support-v4:18.0.0@jar"/>
+  </compile>
+  <package
+      roots="com.android.support:support-v4:18.0.0@jar">
+    <dependency
+        name="com.android.support:support-v4:18.0.0@jar"/>
+  </package>
+</dependencies>

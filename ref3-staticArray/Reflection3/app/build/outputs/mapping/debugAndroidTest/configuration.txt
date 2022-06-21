@@ -1,0 +1,91 @@
+# The proguard configuration file for the following section is C:\Users\Erio\.gradle\caches\transforms-3\e03aeddb3a11ef838b3fb6686c105422\transformed\rules-1.1.0\proguard.txt
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# End of content from C:\Users\Erio\.gradle\caches\transforms-3\e03aeddb3a11ef838b3fb6686c105422\transformed\rules-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Erio\.gradle\caches\transforms-3\c14dc648c5dfc022b1319d48d28b117b\transformed\espresso-core-3.1.0\proguard.txt
+# Common proguard flags for all the espresso libraries.
+
+# ignore 'cannot find java.beans and mockito integration' warnings
+-dontwarn org.hamcrest.**
+
+# ignore 'can't find referenced class sun.misc.Unsafe' from guava
+-dontwarn androidx.test.espresso.core.deps.guava.**
+
+# ignore 'can't find referenced class javax.lang.model.element.Modifier'
+-dontwarn com.squareup.javawriter.JavaWriter
+
+# ignore 'can't find referenced class sun.misc.Unsafe, libcore.io.Memory' from protobuf
+-dontwarn androidx.test.espresso.core.deps.protobuf.**
+
+# ignore 'can't find referenced method android.app.Instrumentation' from android.jar
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from C:\Users\Erio\.gradle\caches\transforms-3\c14dc648c5dfc022b1319d48d28b117b\transformed\espresso-core-3.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Erio\.gradle\caches\transforms-3\50f0d09583575486b968c541e6a68d4a\transformed\runner-1.1.0\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# for 'can't find referenced class java.lang.management.RuntimeMXBean'
+-dontwarn org.junit.rules.DisableOnDebug
+
+# for 'can't find referenced class java.lang.management.ThreadMXBean'
+-dontwarn org.junit.internal.runners.statements.FailOnTimeout
+
+# for 'can't find referenced class java.beans.**, easymock, etc
+-dontwarn org.hamcrest.**
+# End of content from C:\Users\Erio\.gradle\caches\transforms-3\50f0d09583575486b968c541e6a68d4a\transformed\runner-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Erio\.gradle\caches\transforms-3\9fc2600db2b966aad25425519058302a\transformed\monitor-1.1.0\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from C:\Users\Erio\.gradle\caches\transforms-3\9fc2600db2b966aad25425519058302a\transformed\monitor-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Erio\.gradle\caches\transforms-3\2fe96613385d2a67cdef437b5ea7a1b8\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep @android.support.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <init>(...);
+}
+
+# End of content from C:\Users\Erio\.gradle\caches\transforms-3\2fe96613385d2a67cdef437b5ea7a1b8\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is <unknown>
+-dontoptimize
+-keep class * {*;}
+-keep interface * {*;}
+-keep enum * {*;}
+-keepattributes *
+-ignorewarnings
+# End of content from <unknown>
+# The proguard configuration file for the following section is <unknown>
+-applymapping "C:\Users\Erio\AndroidStudioProjects\Reflection3\app\build\outputs\mapping\debug\mapping.txt"
+# End of content from <unknown>

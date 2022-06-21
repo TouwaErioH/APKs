@@ -1,0 +1,3 @@
+de.ecspride.ReflectiveClass
+de.ecspride.MainActivity
+de.ecspride.MainActivity: MainActivity()

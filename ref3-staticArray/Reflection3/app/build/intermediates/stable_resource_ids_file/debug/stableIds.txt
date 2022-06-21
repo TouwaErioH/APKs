@@ -1,0 +1,11 @@
+de.ecspride:style/AppTheme = 0x7f070001
+de.ecspride:string/hello_world = 0x7f060002
+de.ecspride:string/app_name = 0x7f060001
+de.ecspride:style/AppBaseTheme = 0x7f070000
+de.ecspride:menu/main = 0x7f050000
+de.ecspride:string/action_settings = 0x7f060000
+de.ecspride:layout/activity_main = 0x7f040000
+de.ecspride:drawable/ic_launcher = 0x7f020000
+de.ecspride:dimen/activity_vertical_margin = 0x7f010001
+de.ecspride:id/action_settings = 0x7f030000
+de.ecspride:dimen/activity_horizontal_margin = 0x7f010000

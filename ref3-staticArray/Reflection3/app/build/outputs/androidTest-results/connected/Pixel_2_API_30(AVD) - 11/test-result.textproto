@@ -1,0 +1,67 @@
+# 2022-05-25T09:31:17.062Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "TestClass"
+    test_method: "test1"
+    start_time {
+      seconds: 1653470934
+      nanos: 495000000
+    }
+    end_time {
+      seconds: 1653471076
+      nanos: 555000000
+    }
+  }
+  test_status: FAILED
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
+issue {
+  namespace {
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  severity: SEVERE
+  code: 1
+  name: "INSTRUMENTATION_FAILED"
+  message: "Test run failed to complete. Instrumentation run failed due to Process crashed."
+}

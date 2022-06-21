@@ -1,0 +1,4 @@
+#Wed May 25 17:28:49 CST 2022
+base.0=C\:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\intermediates\\dex\\debugAndroidTest\\minifyDebugAndroidTestWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

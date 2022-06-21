@@ -1,0 +1,15 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# min_api: 24
+# pg_map_id: a1a5fe7
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+de.ecspride.MainActivity -> de.ecspride.MainActivity:
+    java.lang.String encrypted -> a
+    32:35:void <init>() -> <init>
+    37:38:java.lang.String base64decrypt(java.lang.String) -> a
+    44:81:void onCreate(android.os.Bundle) -> onCreate
+    86:87:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+de.ecspride.ReflectiveClass -> a.a:
+    java.lang.String imei -> a
+    3:5:void <init>() -> <init>

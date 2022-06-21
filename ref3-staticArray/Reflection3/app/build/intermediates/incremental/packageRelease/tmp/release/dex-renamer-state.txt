@@ -1,0 +1,4 @@
+#Thu May 12 16:20:08 CST 2022
+base.0=C\:\\Users\\Erio\\AndroidStudioProjects\\Reflection3\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

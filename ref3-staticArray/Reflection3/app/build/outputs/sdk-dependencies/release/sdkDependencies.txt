@@ -1,0 +1,35 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.android.support"
+    artifactId: "support-v4"
+    version: "18.0.0"
+  }
+  digests {
+    sha256: "HM\273\275\207v\254\207\254\t\356\b\025\221\030=5\365i\362\020\367\237\017\364\340\"\317TT\266\004"
+  }
+  repo_index {
+    value: 1
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+}
+repositories {
+  maven_repo {
+    url: "https://jcenter.bintray.com/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://maven.aliyun.com/nexus/content/repositories/google"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://maven.aliyun.com/nexus/content/groups/public"
+  }
+}

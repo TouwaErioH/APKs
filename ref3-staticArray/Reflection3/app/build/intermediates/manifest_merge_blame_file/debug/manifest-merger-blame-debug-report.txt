@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.ecspride"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="18"
+8-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:8:9-34
+9        android:targetSdkVersion="21" />
+9-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:11:5-75
+11-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:11:22-72
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:12:5-67
+12-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:12:22-64
+13
+14    <application
+14-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:14:5-30:19
+15        android:allowBackup="true"
+15-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:15:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:16:9-45
+18        android:label="@string/app_name"
+18-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:17:9-41
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:18:9-40
+20        <activity
+20-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:19:9-29:20
+21            android:name="de.ecspride.MainActivity"
+21-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:20:13-52
+22            android:exported="true"
+22-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:21:13-36
+23            android:label="@string/app_name" >
+23-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:22:13-45
+24            <intent-filter>
+24-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:24:13-28:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:25:17-69
+25-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:25:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:27:17-77
+27-->C:\Users\Erio\AndroidStudioProjects\Reflection3\app\src\main\AndroidManifest.xml:27:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

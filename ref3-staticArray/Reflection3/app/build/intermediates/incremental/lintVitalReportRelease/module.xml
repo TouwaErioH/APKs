@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Erio\AndroidStudioProjects\Reflection3\app"
+    name=":app"
+    type="APP"
+    maven="Reflection3:app:"
+    gradle="7.1.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\Erio\AppData\Local\Android\Sdk\platforms\android-17\android.jar;C:\Users\Erio\AppData\Local\Android\Sdk\build-tools\32.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-17">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
